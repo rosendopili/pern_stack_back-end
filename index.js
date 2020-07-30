@@ -5,7 +5,7 @@ const cors = require('cors');
 const { response } = require('express');
 const app = express();
 const port = 3030;
- 
+
 app.use(cors());
  
 app.use(bodyParser.json());
