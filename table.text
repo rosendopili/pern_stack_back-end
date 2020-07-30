@@ -1,0 +1,14 @@
+CREATE TABLE projects (
+    name VARCHAR(255), 
+    url VARCHAR(255),
+    description VARCHAR(255), 
+    id serial PRIMARY KEY
+); 
+
+INSERT INTO projects (name, url, description) VALUES ('glow', 'https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260', 'neon keyboard'); 
+
+INSERT INTO projects (name, url, description) VALUES ('stay focused', 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500', 'i site twenty twenty'); 
+
+INSERT INTO projects (name, url, description) VALUES ('aesthetic', 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260', 'set ups for creative content creators'); 
+
+INSERT INTO projects (name, url, description) VALUES ('hardware', 'https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500', 'the mother of all boards'); 
